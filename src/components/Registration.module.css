@@ -1,0 +1,75 @@
+body {
+    background: #bdc3c7;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .form {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    width: 40%;
+    margin: 10vh auto;
+    padding: 20px;
+  }
+  
+  .form__body {
+    box-sizing: border-box;
+    margin: auto;
+    text-align: left;
+    padding: 20px 10px;
+  }
+  .form__body > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__body > * {
+    padding: 10px;
+  }
+  .form__body input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+  }
+  .errorDiv {
+    font-size: 16px;
+    color: red;
+  }
+  
+  .navLogin {
+    color: rgb(65, 65, 232);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .form__title {
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .form__label {
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    background-color: palevioletred;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
